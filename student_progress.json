@@ -1,0 +1,219 @@
+{
+  "name": "najva",
+  "topics": {
+    "topic=\"neural networks": {
+      "introduced": true
+    },
+    "topic=\"pruning in decision trees": {
+      "introduced": true
+    },
+    "topic": {
+      "introduced": true
+    },
+    "topic=\"machine learning": {
+      "introduced": true
+    },
+    "pca": {
+      "introduced": true
+    },
+    "topic=\"gradient descent": {
+      "introduced": true
+    },
+    "topic=\"gradient descent\"\n": {
+      "introduced": true
+    },
+    "topic={\"name\": \"gradient descent\"}\n": {
+      "introduced": true
+    },
+    "topic={\"name\": \"gradient descent\"}": {
+      "introduced": true
+    },
+    "topic=\"gradient descent\".remove('\"')": {
+      "introduced": true
+    },
+    "topic=\"gradient descent\".strip('\"')": {
+      "introduced": true
+    },
+    "gradient descent": {
+      "introduced": true
+    },
+    "{'topic': 'gradient descent'}": {
+      "introduced": true
+    },
+    "{'topic': 'gradient descent', 'format': 'plain', 'technical': true, 'code_example': true}": {
+      "introduced": true
+    },
+    "topic=\"gradient descent\".remove(\" \")": {
+      "introduced": true
+    },
+    "topic=\"gradient descent\".replace('\"', '')": {
+      "introduced": true
+    },
+    "topic=\"gradient descent\"[1:-1]": {
+      "introduced": true
+    },
+    "topic=gradient descent": {
+      "introduced": true
+    },
+    "neural networks": {
+      "introduced": true,
+      "quiz_generated": true
+    },
+    "neural networks summary": {
+      "introduced": true
+    },
+    "linear regression": {
+      "introduced": true,
+      "quiz_generated": true
+    },
+    "supervised and unsupervised learning": {
+      "introduced": true
+    },
+    "supervised vs unsupervised learning": {
+      "introduced": true
+    },
+    "neural network vs decision tree": {
+      "introduced": true
+    },
+    "linear regression, assumptions": {
+      "introduced": true
+    },
+    "topic=linear regression": {
+      "introduced": true
+    },
+    "coefficient of determination (r-squared)": {
+      "introduced": true
+    },
+    "primary goal of linear regression": {
+      "introduced": true
+    },
+    "quiz structure": {
+      "introduced": true
+    },
+    "linear regression questions": {
+      "introduced": true
+    },
+    "quiz questions": {
+      "introduced": true
+    },
+    "quiz question": {
+      "introduced": true
+    },
+    "goal of linear regression": {
+      "introduced": true
+    },
+    "decision tree": {
+      "introduced": true
+    },
+    "decision tree primary purpose": {
+      "introduced": true
+    },
+    "decision tree type of data": {
+      "introduced": true
+    },
+    "decision tree multiple branches": {
+      "introduced": true
+    },
+    "decision tree pruning": {
+      "introduced": true
+    },
+    "decision tree overfitting": {
+      "introduced": true
+    },
+    "type of relationship does linear regression assume between variables": {
+      "introduced": true
+    },
+    "term for the line that best fits the data in linear regression": {
+      "introduced": true
+    },
+    "measure of how well the model fits the data in linear regression": {
+      "introduced": true
+    },
+    "activation function": {
+      "introduced": true
+    },
+    "applications of decision trees": {
+      "introduced": true
+    },
+    "'linear regression'": {
+      "introduced": true
+    },
+    "activation functions": {
+      "quiz_generated": true
+    },
+    "'activation functions'": {
+      "quiz_generated": true
+    },
+    "'decision tree vs random forest'": {
+      "introduced": true
+    },
+    "'max_iter'": {
+      "introduced": true
+    },
+    "flight operation": {
+      "introduced": true
+    },
+    "flight planning": {
+      "introduced": true
+    },
+    "flight planning in machine learning": {
+      "introduced": true
+    },
+    "reinforcement learning": {
+      "introduced": true
+    },
+    "'machine learning'": {
+      "introduced": true
+    },
+    "'cooking'": {
+      "introduced": true
+    },
+    "'recipe'": {
+      "introduced": true
+    },
+    "'chicken curry'": {
+      "introduced": true
+    },
+    "'recipe in machine learning'": {
+      "introduced": true
+    },
+    "'machine learning recipes'": {
+      "introduced": true
+    },
+    "'feature engineering'": {
+      "introduced": true
+    },
+    "supervised learning": {
+      "introduced": true
+    },
+    "natural language processing": {
+      "introduced": true
+    },
+    "text generation": {
+      "introduced": true,
+      "quiz_generated": true
+    },
+    "feature engineering": {
+      "introduced": true
+    },
+    "svm": {
+      "introduced": true,
+      "quiz_generated": true
+    },
+    "'svm'": {
+      "quiz_generated": true,
+      "introduced": true
+    },
+    "k-means clustering": {
+      "introduced": true,
+      "quiz_generated": true
+    },
+    "explain each supervised machine learning techniques": {
+      "introduced": true
+    }
+  },
+  "last_quiz": {
+    "topic": "k-means clustering",
+    "quiz": "---\n\n**Question 1:** What is the primary goal of k-means clustering?\nA) To classify data points into predefined categories\nB) To identify the underlying structure of the data\nC) To group similar data points into clusters\nD) To predict continuous outcomes\n**Correct Answer:** C\n**Explanation:** K-means clustering aims to partition the data into K clusters based on their similarities, where each cluster represents a group of similar data points.\n\n---\n\n**Question 2:** How does the k-means algorithm work?\nA) It starts with a random initialization of cluster centroids and iteratively updates them until convergence\nB) It uses a hierarchical approach to build a dendrogram and then cuts it at a specified height\nC) It applies a linear regression model to predict cluster assignments\nD) It uses a genetic algorithm to search for optimal cluster assignments\n**Correct Answer:** A\n**Explanation:** The k-means algorithm initializes cluster centroids randomly and iteratively updates them by assigning each data point to the closest cluster centroid and recalculating the centroid as the mean of the assigned data points.\n\n---\n\n**Question 3:** What are the advantages of k-means clustering?\nA) It is computationally expensive and sensitive to initial conditions\nB) It is robust to outliers and can handle high-dimensional data\nC) It is a non-parametric method that can handle non-linear relationships\nD) It is a fast and efficient method for large datasets\n**Correct Answer:** D\n**Explanation:** K-means clustering is a fast and efficient method for large datasets, making it suitable for applications where computational resources are limited.\n\n---\n\n**Question 4:** What are the limitations of k-means clustering?\nA) It assumes spherical clusters and is sensitive to outliers\nB) It is robust to outliers and can handle high-dimensional data\nC) It is a non-parametric method that can handle non-linear relationships\nD) It is a supervised learning method that requires labeled data\n**Correct Answer:** A\n**Explanation:** K-means clustering assumes spherical clusters and is sensitive to outliers, which can lead to poor performance in cases where the clusters are irregularly shaped or contain outliers.\n\n---\n\n**Question 5:** In what real-world application is k-means clustering commonly used?\nA) Image segmentation in computer vision\nB) Recommendation systems in e-commerce\nC) Time series forecasting in finance\nD) Sentiment analysis in natural language processing\n**Correct Answer:** A\n**Explanation:** K-means clustering is commonly used in image segmentation in computer vision, where it is used to group pixels into clusters based on their color and texture features."
+  }
+}
