@@ -3,7 +3,7 @@ import streamlit as st
 from teacher_agent import ask_teacher, progress, save_progress
 
 st.set_page_config(page_title="ML Teacher Agent", layout="wide")
-st.title(" ML Instructor — Agentic AI")
+st.title(" AI Instructor — Agentic AI")
 
 st.sidebar.header("Student Info & Progress")
 student_name = st.sidebar.text_input("Your name", value=progress.get("name", "Student"))
