@@ -414,7 +414,7 @@ def ask_teacher(query: str) -> str:
         non_ml_keywords = [
             'cooking', 'recipe', 'food', 'curry', 'chicken', 'pizza', 
             'history', 'geography', 'sports', 'football', 'music', 
-            'art', 'painting', 'literature', 'novel', 'movie','health','biology'
+            'art', 'painting', 'literature', 'novel', 'movie','health',
         ]
         
         query_lower = query.lower()
