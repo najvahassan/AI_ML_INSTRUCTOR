@@ -63,22 +63,23 @@ LangChain + Groq API
 ```bash
 git clone https://github.com/yourusername/ml-instructor-agent.git
 cd ml-instructor-agent
-2️⃣ Create and activate virtual environment
+### 2  Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate    # on Linux/Mac
 venv\Scripts\activate       # on Windows
 
-3️⃣ Install dependencies
+### 3 Install dependencies
 pip install -r requirements.txt
 
-4️⃣ Set up environment variables
+### 4 Set up environment variables
 
 Create a .env file in the project root with the following:
 
 GROQ_API_KEY=your_groq_api_key_here
 
-5️⃣ Run the Streamlit app
+ ### 5 Run the Streamlit app
 streamlit run application.py
+
 ### Requirements File
 streamlit
 langchain
