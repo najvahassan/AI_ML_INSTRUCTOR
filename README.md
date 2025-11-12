@@ -31,20 +31,21 @@ Built using **Streamlit**, **LangChain**, and **Groq’s LLaMA-3.1 model**, this
 │
 ▼
 LangChain + Groq API
+(LLaMA-3.1-8b-instant)
 
 ---
 
 ## ⚙️ Features
 
-- 🧠 **Concept Explanation** — Explains ML/DL concepts in structured format (definition, analogy, and use).  
-- 💻 **Code Generation** — Generates Python code examples using frameworks like NumPy, scikit-learn, TensorFlow, and PyTorch.  
-- 📝 **Quiz Generation** — Creates 5-question multiple-choice quizzes for any ML topic.  
-- 📊 **Progress Tracking** — Stores student interactions and topics in `student_progress.json`.  
-- 🧱 **Strict ML Topic Validation** — Filters out non-ML topics automatically.  
+-  **Concept Explanation** — Explains ML/DL concepts in structured format (definition, analogy, and use).  
+-  **Code Generation** — Generates Python code examples using frameworks like NumPy, scikit-learn, TensorFlow, and PyTorch.  
+-  **Quiz Generation** — Creates 5-question multiple-choice quizzes for any ML topic.  
+-  **Progress Tracking** — Stores student interactions and topics in `student_progress.json`.  
+-  **Strict ML Topic Validation** — Filters out non-ML topics automatically.  
 
 ---
 
-## 🧩 Key Files
+##  Key Files
 
 | File | Description |
 |------|--------------|
@@ -84,5 +85,4 @@ langchain
 langchain-groq
 python-dotenv
 
-(LLaMA-3.1-8b-instant)
 
